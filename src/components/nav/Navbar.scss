@@ -1,0 +1,100 @@
+.open {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    background-color: brown;
+    display: flex;
+    transition: all .5s ease-in-out;
+}
+.closed {
+    display: none;
+    transition: all .5s ease-in-out;
+}
+.navItems {
+    display: flex;
+    width: 80%;
+    // padding: 2%;
+    justify-content: space-between;
+    margin: 1.5%;
+}
+.navItem {
+    color: white;
+}
+.navItem:hover {
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    border-radius: 20%;
+}
+
+.menu-btn {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 0 0 15%;
+    width: 3%;
+    height: 50%;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    /* border: 3px solid #fff; */
+    float: right;
+}
+
+.menu-btn-closed {
+    grid-column: 3;
+    grid-row: 1;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 0 0 50%;
+    width: 30%;
+    height: 50%;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    /* border: 3px solid #fff; */
+    float: right;
+}
+
+.menu-btn__burger  {
+    width: 80%;
+    height: 15%;
+    background-color: #fff;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+    z-index: 5;
+}
+/* 
+.menu-btn__burger::before {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 20%;
+    background-color: #fff;
+    margin-top: 50%;
+    margin-right: 10%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+}
+.menu-btn__burger::after
+ {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 20%;
+    background-color: #fff;
+    margin-top: 20%;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn__burger::before {
+    transform: translateY(-10%);
+}
+.menu-btn__burger::after {
+    transform: translateY(10%);
+} */

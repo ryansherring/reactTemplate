@@ -12,13 +12,13 @@ const Routes = () => {
   return (
     <BrowserRouter>
     <Switch>
-      <Route exact path="/">
+      <Route exact path="/home">
         <Home />
       </Route>
       <Route path="/about">
         <About />
       </Route>
-      <Route exact path="/landing">
+      <Route exact path="/">
         <Landing />
       </Route>
     </Switch>

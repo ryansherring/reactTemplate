@@ -11,9 +11,9 @@ const Navbar = () => {
     <>
       <div className={openBar}>
         <div className="navItems">
-          <Link className="navItem" to="/landing">Landing</Link>
+          <Link className="navItem" to="/">Landing</Link>
           <Link className="navItem" to="/about">About</Link>
-          <Link className="navItem" to="/">Home</Link>
+          <Link className="navItem" to="/home">Home</Link>
         </div>
         <div className="menu-btn" onClick={() => setOpen(!open)}>
             <div className="menu-btn__burger" />

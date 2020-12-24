@@ -3,7 +3,7 @@ import React from 'react';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
 // Components
-import Home from '../pages/Home/Home';
+import MainApp from '../pages/mainApp/mainApp';
 import About from '../pages/About/About';
 import Landing from '../pages/Landing/Landing';
 
@@ -12,8 +12,8 @@ const Routes = () => {
   return (
     <BrowserRouter>
     <Switch>
-      <Route exact path="/home">
-        <Home />
+      <Route exact path="/mainapp">
+        <MainApp />
       </Route>
       <Route path="/about">
         <About />

@@ -4,7 +4,7 @@ import AddTodo from "../../components/ToDo/AddTodo";
 import TodoList from "../../components/ToDo/TodoList";
 import VisibilityFilters from "../../components/ToDo/VisibilityFilters";
 
-const Home = () => {
+const MainApp = () => {
   return (
     <Layout>
       <div className="todo-app">
@@ -16,4 +16,4 @@ const Home = () => {
     </Layout>
   );
 };
-export default Home;
+export default MainApp;

@@ -12,7 +12,6 @@ const Todo = ({ todo, toggleTodo }) => (
         todo && todo.completed && "todo-item__text--completed"
       )}
     >
-      {todo.content}
     </span>
   </li>
 );
